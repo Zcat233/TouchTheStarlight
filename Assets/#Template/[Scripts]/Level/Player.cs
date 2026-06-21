@@ -182,6 +182,11 @@ namespace DancingLineFanmade.Level
             Cursor.visible = true;
         }
 
+        public void Timer()
+        {
+            Debug.Log("当前时间：" + AudioManager.Time);
+        }
+
         private void Update()
         {
 #if UNITY_EDITOR
