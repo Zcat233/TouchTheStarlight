@@ -7,14 +7,19 @@ public class SkyboxStarTrigger : MonoBehaviour
     public float targetMaskValue = 0f;
     public float duration = 5f;
 
-    private float originalMaskValue;
+    private Material runtimeMaterial;
     private Coroutine animationCoroutine;
 
     void Start()
     {
         if (skyboxMaterial != null)
         {
-            originalMaskValue = skyboxMaterial.GetFloat("_StarsBottomMask");
+            runtimeMaterial = new Material(skyboxMaterial);
+            if (RenderSettings.skybox == skyboxMaterial)
+            {
+                RenderSettings.skybox = runtimeMaterial;
+            }
+            // 顺带保存一下初始值（虽然你不恢复，但万一调试需要）
         }
     }
 
@@ -23,19 +28,17 @@ public class SkyboxStarTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             if (animationCoroutine != null)
-            {
                 StopCoroutine(animationCoroutine);
-            }
             animationCoroutine = StartCoroutine(AnimateStars());
         }
     }
 
     private IEnumerator AnimateStars()
     {
-        if (skyboxMaterial == null) yield break;
+        if (runtimeMaterial == null) yield break;
 
         float elapsed = 0f;
-        float startMaskValue = skyboxMaterial.GetFloat("_StarsBottomMask");
+        float startMaskValue = runtimeMaterial.GetFloat("_StarsBottomMask");
 
         while (elapsed < duration)
         {
@@ -43,23 +46,15 @@ public class SkyboxStarTrigger : MonoBehaviour
             float t = Mathf.Clamp01(elapsed / duration);
             float currentMask = Mathf.Lerp(startMaskValue, targetMaskValue, t);
 
-            skyboxMaterial.SetFloat("_StarsBottomMask", currentMask);
-            RenderSettings.skybox = skyboxMaterial;
+            runtimeMaterial.SetFloat("_StarsBottomMask", currentMask);
+            // 【删除】RenderSettings.skybox = runtimeMaterial; 这一行是多余的，已删除
 
             yield return null;
         }
 
-        skyboxMaterial.SetFloat("_StarsBottomMask", targetMaskValue);
-        RenderSettings.skybox = skyboxMaterial;
+        runtimeMaterial.SetFloat("_StarsBottomMask", targetMaskValue);
         animationCoroutine = null;
     }
 
-    private void OnDisable()
-    {
-        if (skyboxMaterial != null)
-        {
-            skyboxMaterial.SetFloat("_StarsBottomMask", originalMaskValue);
-            RenderSettings.skybox = skyboxMaterial;
-        }
-    }
+    // 同样删除 OnDisable 恢复逻辑
 }

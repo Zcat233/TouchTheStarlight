@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Material
+  m_Name: Road
   m_Shader: {fileID: 4800000, guid: 4a70946ca8b9aae42a4d4a3600fcf519, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
