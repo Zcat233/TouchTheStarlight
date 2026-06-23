@@ -15,7 +15,7 @@ MonoBehaviour:
   levelTitle: Touch the Starlight
   soundTrack: {fileID: 8300000, guid: 6db59700898f1a24295103201f9ff212, type: 3}
   speed: 11
-  blockLimit: 10
+  blockLimit: 5
   timeScale: 1
   gravity: {x: 0, y: -9, z: 0}
   colors:

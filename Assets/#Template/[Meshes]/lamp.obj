@@ -1,0 +1,202 @@
+# Wavefront OBJ file made by Mineways version 12.12, http://mineways.com
+# World: model
+# Terrain file name: E:\Programs\mineways\mineways\terrainExt.png
+# Color scheme: Standard
+# Tue Jun 23 10:32:51 2026
+
+# Selection location min to max: 2, -58, 10 to 2, -52, 10
+#   Non-empty selection location min to max: 2, -57, 10 to 2, -56, 10
+
+# Set render type: Wavefront OBJ absolute indices
+# Units for the model vertex data itself: meters
+
+# 40 vertices, 19 faces (38 triangles), 0 blocks, 7 billboards/bits
+# block dimensions: X=2 by Y=3 (height) by Z=2 blocks
+# Elevation shading: no
+# Lighting: no
+# Transparent water: no
+# Map grid: no
+# File type: Export individual textures to directory tex
+# Texture output RGB: YES
+# Texture output A: YES
+# Texture output RGBA: YES
+# Export separate types: YES
+# Export individual blocks: no
+#   Material per family: YES
+#   Split by block type: YES
+# Make groups objects: YES
+# Custom material: YES
+# Export lesser blocks: YES
+# Fatten lesser blocks: no
+# Simplify mesh: no
+# Double all billboard faces: no
+# Create composite overlay faces: no
+# Center model: YES
+# Use biomes: no
+# Create block faces at the borders: YES
+# Tree leaves solid: no
+# Rotate model 0.000000 degrees
+# Make Z the up direction instead of Y: no
+# Scale model by making each block 1000 mm high
+# Data operation options:
+#   Fill air bubbles: no; Seal off entrances: no; Fill in isolated tunnels in base of model: no
+#   Connect parts sharing an edge: no; Connect corner tips: no; Weld all shared edges: no
+#   Delete floating objects: trees and parts smaller than 16 blocks: no
+#   Hollow out bottom of model, making the walls 1000 mm thick: no; Superhollow: no
+# Melt snow blocks: no
+#   Debug: show separate parts as colors: no
+#   Debug: show weld blocks in bright colors: no
+
+# Full world path: E:\Programs\PCL2\.minecraft\versions\26.1.2-Fabric 0.19.3\saves\model
+# Full terrainExt.png path: E:\Programs\mineways\mineways\terrainExt.png
+# Full current path: E:\Programs\mineways\mineways
+
+# COMMON_MC_OBJ_START
+# version: 1
+# exporter: mineways
+# world_name: model
+# world_path: E:\Programs\PCL2\.minecraft\versions\26.1.2-Fabric 0.19.3\saves\model
+# export_bounds_min: (2, -58, 10)
+# export_bounds_max: (2, -52, 10)
+# export_offset: (-2.000000, 58.000000, -10.000000)
+# block_scale: 1
+# block_origin_offset: (0.000000, 0.000000, 0.000000)
+# z_up: false
+# texture_type: INDIVIDUAL_TILES
+# has_split_blocks: true
+# COMMON_MC_OBJ_END
+
+mtllib lamp.mtl
+vn -1 0 0
+vn 0 -1 0
+vn 0 0 -1
+vn 1 0 0
+vn 0 1 0
+vn 0 0 1
+vn -0.707107 0 -0.707107
+vn -0.707107 0 0.707107
+vn 0.707107 0 -0.707107
+vn 0.707107 0 0.707107
+vn -0.707107 -0.707107 0
+vn 0 -0.707107 -0.707107
+vn 0.707107 -0.707107 0
+vn 0 -0.707107 0.707107
+vn -0.707107 0.707107 0
+vn 0 0.707107 -0.707107
+vn 0.707107 0.707107 0
+vn 0 0.707107 0.707107
+vn -0.92388 0 -0.382683
+vn -0.92388 0 0.382683
+vn 0.92388 0 -0.382683
+vn 0.92388 0 0.382683
+vn -0.382683 0 -0.92388
+vn -0.382683 0 0.92388
+vn 0.382683 0 -0.92388
+vn 0.382683 0 0.92388
+vn -0.397273 0.9177 0
+vn 0.397273 -0.9177 0
+vn 0.397273 0.9177 0
+vn -0.397273 -0.9177 0
+vn 0 0.9177 -0.397273
+vn 0 -0.9177 0.397273
+vn 0 0.9177 0.397273
+vn 0 -0.9177 -0.397273
+vn -0.440932 0.897541 0
+vn 0.440932 -0.897541 0
+vn 0.440932 0.897541 0
+vn -0.440932 -0.897541 0
+vn 0 0.897541 -0.440932
+vn 0 -0.897541 0.440932
+vn 0 0.897541 0.440932
+vn 0 -0.897541 -0.440932
+vt 0.000000000 0.000000000
+vt 1.000000000 0.000000000
+vt 0.000000000 0.062500000
+vt 0.375000000 0.062500000
+vt 0.062500000 0.125000000
+vt 0.312500000 0.125000000
+vt 0.687500000 0.250000000
+vt 0.875000000 0.250000000
+vt 0.062500000 0.375000000
+vt 0.312500000 0.375000000
+vt 0.687500000 0.375000000
+vt 0.875000000 0.375000000
+vt 0.000000000 0.437500000
+vt 0.375000000 0.437500000
+vt 0.000000000 0.812500000
+vt 1.000000000 0.812500000
+vt 0.000000000 0.875000000
+vt 0.062500000 0.875000000
+vt 0.312500000 0.875000000
+vt 0.375000000 0.875000000
+vt 0.000000000 1.000000000
+vt 0.062500000 1.000000000
+vt 0.312500000 1.000000000
+vt 1.000000000 1.000000000
+v 1 1.8125 1
+v 1 1.8125 0
+v 1 2 1
+v 1 2 0
+v 0 1.8125 1
+v 0 1.8125 0
+v 0 2 1
+v 0 2 0
+v 0.3125 2 0.3125
+v 0.3125 2 0.6875
+v 0.3125 2.4375 0.3125
+v 0.3125 2.4375 0.6875
+v 0.6875 2 0.3125
+v 0.6875 2 0.6875
+v 0.6875 2.4375 0.3125
+v 0.6875 2.4375 0.6875
+v 0.375 2.4375 0.375
+v 0.375 2.4375 0.625
+v 0.375 2.5625 0.375
+v 0.375 2.5625 0.625
+v 0.625 2.4375 0.375
+v 0.625 2.4375 0.625
+v 0.625 2.5625 0.375
+v 0.625 2.5625 0.625
+v 0.433709 2.5625 0.433709
+v 0.433709 2.5625 0.433709
+v 0.433709 2.6875 0.433709
+v 0.433709 2.6875 0.433709
+v 0.566291 2.5625 0.566291
+v 0.566291 2.5625 0.566291
+v 0.566291 2.6875 0.566291
+v 0.566291 2.6875 0.566291
+v 0.566291 2.5625 0.433709
+v 0.566291 2.5625 0.433709
+v 0.566291 2.6875 0.433709
+v 0.566291 2.6875 0.433709
+v 0.433709 2.5625 0.566291
+v 0.433709 2.5625 0.566291
+v 0.433709 2.6875 0.566291
+v 0.433709 2.6875 0.566291
+
+o Spruce_Trapdoor
+g Spruce_Trapdoor
+usemtl spruce_trapdoor
+f 4/24/4 3/21/4 1/15/4 2/16/4
+f 2/21/2 1/1/2 5/2/2 6/24/2
+f 3/24/6 7/21/6 5/15/6 1/16/6
+f 8/21/1 6/15/1 5/16/1 7/24/1
+f 7/2/5 3/1/5 4/21/5 8/24/5
+f 4/21/3 2/15/3 6/16/3 8/24/3
+
+o Lantern
+g Lantern
+usemtl lantern
+f 11/20/1 9/14/1 10/13/1 12/17/1
+f 15/20/3 13/14/3 9/13/3 11/17/3
+f 15/20/4 16/17/4 14/13/4 13/14/4
+f 16/20/6 12/17/6 10/13/6 14/14/6
+f 10/3/2 9/4/2 13/14/2 14/13/2
+f 15/13/5 11/3/5 12/4/5 16/14/5
+f 19/23/1 17/19/1 18/18/1 20/22/1
+f 23/23/3 21/19/3 17/18/3 19/22/3
+f 23/23/4 24/22/4 22/18/4 21/19/4
+f 24/23/6 20/22/6 18/18/6 22/19/6
+f 23/9/5 19/5/5 20/6/5 24/10/5
+f 27/11/9 31/12/9 29/8/9 25/7/9
+f 35/11/10 39/12/10 37/8/10 33/7/10
