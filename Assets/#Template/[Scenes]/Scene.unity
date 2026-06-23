@@ -32726,8 +32726,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   guidelineTapHolder: {fileID: 846979177}
   colors:
-  - {r: 0, g: 0, b: 0, a: 0.5647059}
   - {r: 1, g: 1, b: 1, a: 0.72156864}
+  - {r: 0, g: 0, b: 0, a: 0.5647059}
   lineGap: 0.2
   autoplay: 0
   autoplayTriggerSize: {x: 0.5, y: 0.5, z: 2}
@@ -37102,7 +37102,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh23622
+  m_Name: pb_Mesh23628
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
