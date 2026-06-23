@@ -20,7 +20,7 @@ MonoBehaviour:
   gravity: {x: 0, y: -9, z: 0}
   colors:
   - material: {fileID: 2100000, guid: 4a9a05847c8609548b12b570d0f8317f, type: 2}
-    color: {r: 0.18962847, g: 0.413602, b: 0.8867924, a: 1}
+    color: {r: 0.2077844, g: 0.4524085, b: 0.9716981, a: 1}
     emissionColor: {r: 0, g: 0, b: 0, a: 0}
   - material: {fileID: 2100000, guid: 240cd8514a588cb488b889fe13d20b98, type: 2}
     color: {r: 0.76862746, g: 0.76862746, b: 0.76862746, a: 1}

@@ -15,10 +15,10 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0, g: 0.23529412, b: 0.7058824, a: 1}
-  m_FogMode: 1
+  m_FogColor: {r: 0.0627451, g: 0.14509805, b: 0.34901962, a: 1}
+  m_FogMode: 2
   m_FogDensity: 0.01
-  m_LinearFogStart: 50
+  m_LinearFogStart: 35
   m_LinearFogEnd: 150
   m_AmbientSkyColor: {r: 0.3372549, g: 0.38431373, b: 0.6313726, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.0005944719, g: 0.005171156, b: 0.045987897, a: 0.1}
+  m_IndirectSpecularColor: {r: 0.0011689512, g: 0.0026609825, b: 0.011104665, a: 0.1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -22609,14 +22609,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_LocalRotation: {x: 0.16172901, y: 0.83731925, z: -0.39044836, w: 0.346829}
+  m_LocalRotation: {x: 0.14873351, y: 0.8512449, z: -0.35259804, w: 0.3590754}
   m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 796032604}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: 135, z: 0}
+  m_LocalEulerAnglesHint: {x: 45, y: 134.258, z: 0}
 --- !u!1001 &713860931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33613,8 +33613,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 956728622}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.3, y: -8.2, z: 20.9}
-  m_LocalScale: {x: 1000, y: 10, z: 1000}
+  m_LocalPosition: {x: 350, y: -8.2, z: 350}
+  m_LocalScale: {x: 900, y: 10, z: 900}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1078878624}
@@ -70966,10 +70966,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9935c39bc38bf8c47a256ba7e0e6fd98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skyboxMaterial: {fileID: 2100000, guid: d0523d8917957bb429a32997cb0e52b2, type: 2}
+  targetSkyColor: {r: 0, g: 0.23529412, b: 0.7058824, a: 1}
   targetEquatorColor: {r: 0, g: 0.23400182, b: 0.705, a: 1}
   targetGroundColor: {r: 0, g: 0.23400182, b: 0.705, a: 1}
   transitionDuration: 3
+  triggerOnlyOnce: 1
+  customSkyboxRenderer: {fileID: 0}
 --- !u!4 &2012090790 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2250167408783930161, guid: 72ff057f6fa118848b9fbc9708ae7252, type: 3}
