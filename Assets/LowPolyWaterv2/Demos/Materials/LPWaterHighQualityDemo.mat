@@ -108,5 +108,5 @@ Material:
     - _ShoreColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.1503797, g: 0.21997188, b: 0.3490566, a: 1}
     - _Sun: {r: 0.5461894, g: 0.64278793, b: 0.5371231, a: 0}
-    - _SunColor: {r: 0.485226, g: 0.59706897, b: 0.8207547, a: 1}
+    - _SunColor: {r: 0.65723264, g: 0.77014416, b: 1, a: 1}
   m_BuildTextureStacks: []

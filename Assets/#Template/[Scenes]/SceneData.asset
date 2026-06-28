@@ -27,7 +27,7 @@ MonoBehaviour:
     emissionColor: {r: 0, g: 0, b: 0, a: 0}
   - material: {fileID: 2100000, guid: 6b689dd40c56e9c4d89d730b21c8011a, type: 2}
     color: {r: 0.45911944, g: 0.9512147, b: 1, a: 1}
-    emissionColor: {r: 0.105882354, g: 0.44313726, b: 0.7490196, a: 0.39215687}
+    emissionColor: {r: 0.45882353, g: 0.9529412, b: 1, a: 0.39215687}
   - material: {fileID: 2100000, guid: 0534254645dfbfa488b251c74090bfaa, type: 2}
     color: {r: 0.32941157, g: 0.32941157, b: 0.32941157, a: 1}
     emissionColor: {r: 0, g: 0, b: 0, a: 0}
